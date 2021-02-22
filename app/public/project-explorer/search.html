@@ -65,7 +65,7 @@
           <form class="form-inline">
             <div>
              <label for="searchForm"></label>
-             <input type="text" class="form-control" name="searchForm" id="searchForm" placeholder="Search Projects">
+             <input type="text" class="form-control" name="searchForm" id="searchForm" name="searchForm" placeholder="Search Projects">
    
              <button type="button" class="btn btn-outline-light">
                Search
@@ -101,7 +101,7 @@
             <div class="form-row">
                 <div class="form-group col-8">
                     <label for="searchTerm"></label>
-                    <input type="text" class="form-control form-control-lg" placeholder="Search Project Name, Authors, Abstract, Tags">
+                    <input type="text" class="form-control form-control-lg" placeholder="Search Project Name, Authors, Abstract, Tags" name="searchTerm">
                 </div>
              
               <div class="form-group col-4">
@@ -109,7 +109,7 @@
                    <div class="srch">
                 <label for="searchType">Search By</label></div>
                 
-                <select type="submit" class=" form-control-lg" id="searchType">
+                <select type="submit" class=" form-control-lg" id="searchType" name="searchType">
                     <option value="Name">Name</option>
                     <option value="Abstract">Abstract</option>
                     <option value="Authors">Authors</option>
