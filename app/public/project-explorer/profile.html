@@ -36,47 +36,33 @@
 
 
 <body>
-   <header>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-          <a class="navbar-brand" href="index.html">Project Explorer</a>
-          <form class="form-inline">
-            <div>
-             <label for="searchForm"></label>
-             <input type="text" class="form-control" name="searchForm" id="searchForm" placeholder="Search Projects">
-   
-             <button type="button" class="btn btn-outline-light">
-               Search
-             </button>
-            </div>
-   
-           <ul class="navbar-nav">
-             <li class="nav-item"> 
-               <a href="createproject.html" class="nav-link">Submit</a>
-             </li>
-           </ul> 
-          </form>
-   
-           <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-               <a href="register.html" class="nav-link">Sign up</a>
-             </li>
-             <li class="nav-item">
-               <a href="login.html" class="nav-link">Login</a>
-             </li>
-           </ul>
-       </nav>
-      </div>
+  <nav class="navbar navbar-expand navbar-dark bg-primary">
+    <a href="/project-explorer" class="navbar-brand">Project Explorer</a>
+    <form method="get" action="/project-explorer/search.html" class="form-inline">
+      <input type="text" placeholder="Search Projects" name="search" class="mr-sm-2 form-control">
+      <input type="hidden" name="type" value="Name">
+      <button type="submit" class="btn btn-outline-light">Search</button>
+    </form>
+    <div class="mr-auto navbar-nav">
+      <a href="/project-explorer/viewProject.html" class="nav-link">Projects
+      </a>
+    </div>
+    <div class="navbar-nav">
+      <a href="/project-explorer/register.html" class="nav-link">Sign up</a>
+      <a href="/project-explorer/login.html" class="nav-link">Login</a>
+    </div>
+
+  </nav>
    </header> 
 
    <main>
     <div class="container">
         <div class="head-con">
           <h2>
-            Ade Chuks
+            Ola Ola
           </h2>
           <div class="text-muted">
-              ade@edconnect.com
+              ola@edconnect.com
           </div>
          </div>
         <div class="jumbotron">
